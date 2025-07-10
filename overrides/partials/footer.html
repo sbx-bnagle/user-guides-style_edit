@@ -18,20 +18,8 @@
 			Argonne, IL 60439<br>
 			<a href="mailto:media@alcf.anl.gov">Contact</a>
 		</p>
-	</div>
 
-	<div class="footer--admin">
-		<a href="https://login.anl.gov/idp/profile/SAML2/Redirect/SSO?execution=e1s1">Internal Admin</a>
-	</div>
-
-	<div class="footer--copyright">
-		<p>
-			&copy; <span id="current-year"></span> Argonne Leadership Computing Facility
-		</p>
-	</div>
-
-	<!-- Social links from mkdocs-material theme -->
-	<div class="footer--social">
+		<!-- Social links from mkdocs-material theme -->
 		{% if config.extra.social %}
 			<div class="md-social">
 				{% for social in config.extra.social %}
@@ -48,8 +36,21 @@
 		{% endif %}
 	</div>
 
+	<div class="footer--admin">
+		<a href="https://login.anl.gov/idp/profile/SAML2/Redirect/SSO?execution=e1s1">Internal Admin</a>
+	</div>
+
+	<div class="footer--copyright">
+		<p>
+			&copy; <span id="current-year"></span> Argonne Leadership Computing Facility
+		</p>
+	</div>
+
+	
+
+
 	<div class="footer--logos">
-		<img class="footer--logo-doe" src="{{ config.site_url }}/images/DOE_ko_300.png">
+		<img class="footer--logo-doe" src="{{ config.site_url }}/images/DOE_ko_300-new.png">
 		<img class="footer--logo-argonne" src="{{ config.site_url }}/
 		images/ANL_ko_300.png">
 		<img class="footer--logo-argonne" src="{{ config.site_url }}/
